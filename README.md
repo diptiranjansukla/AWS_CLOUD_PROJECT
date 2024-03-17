@@ -22,25 +22,25 @@ Setting Up the AWS VPC
 •	Configuration of 4 subnets (2 public, 2 private)
 •	Attachment of Internet Gateway and NAT Gateway
 •	Configuration of route tables for routing traffic
-2.Launching EC2 Instances
 
+2.Launching EC2 Instances
 •	Launching 2 EC2 instances in the public subnets
 •	Configuration of EC2 instances to host a sample website
 •	Attachment of an Application Load Balancer
-3.Implementing Auto Scaling
 
+3.Implementing Auto Scaling
 •	Creation of an Auto Scaling Group
 •	Configuration of CloudWatch alarms for automatic scaling based on CPU utilization
-4.Creating an RDS Database
 
+4.Creating an RDS Database
 •	Launching an RDS instance in a private subnet
 •	Database configuration including security groups and parameter groups
-5.Securely Accessing the Database
 
+5.Securely Accessing the Database
 •	Setting up an OpenVPN server in AWS
 •	Connecting to the RDS database securely from a local computer using MySQL Workbench via the OpenVPN server
-6.SSL Certificate and DNS Configuration
 
+6.SSL Certificate and DNS Configuration
 •	Obtaining and configuring an SSL certificate for the demo website
 •	Creating a Hosted Zone in Amazon Route 53 for DNS management
 •	Setting up listeners in the Load Balancer to enable SSL termination
